@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "frontend/dist/frontend",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+} 
